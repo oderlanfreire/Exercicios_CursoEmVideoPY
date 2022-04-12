@@ -1,4 +1,4 @@
-metros = int(input("Insira a distancia em metros: "))
+metros = float(input("Insira a distancia em metros: "))
 
 km = metros / 1000
 hm = metros / 100
