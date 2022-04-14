@@ -5,4 +5,4 @@ promo = float(
 promocao = produto - (produto * (promo/100))
 
 print(
-    'O produto na promoção com 5% de desconto sai por R${:.2f}' .format(promocao))
+    'O produto na promoção com {:.0f}% de desconto sai por R${:.2f}' .format(promo, promocao))
