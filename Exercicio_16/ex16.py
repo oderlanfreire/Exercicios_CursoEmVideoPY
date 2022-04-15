@@ -2,4 +2,5 @@ import math
 
 num = float(input("Insira um numero real: "))
 
-print(math.trunc(num))
+print("O numero  real digitado é {}, sua parte inteira é {}" .format(
+    num, math.trunc(num)))
